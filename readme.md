@@ -18,14 +18,10 @@ $ git init <br />
 $ git add . <br />
 $ git commit -m "first commit" <br />
 $ git branch -M 'main' <br />
-$ git remote add origin https://github.com/alissondel/projetoGraphql.git <br />
+$ git remote add origin https://github.com/alissondel/projeto-graphql-parte02.git <br />
 $ git push -u origin 'main' <br />
 
 ## Subindo as atualizações restantes
 $ git add . <br />
 $ git commit -m "first commit" <br />
 $ git push <br />
-$
-
-## Observações
-http://localhost:3000/posts?_start=0&_limit=2&_order=asc&_sort=indexRef
