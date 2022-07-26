@@ -1,0 +1,29 @@
+{
+  "name": "cursographql-part02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r sucrase/register src/index.js",
+    "server": "json-server --watch db.json",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "keywords": [],
+  "author": "Alisson Delatim",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.10.0",
+    "graphql": "^16.5.0",
+    "json-server": "^0.17.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "sucrase": "^3.24.0"
+  }
+}
