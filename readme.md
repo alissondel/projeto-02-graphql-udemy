@@ -23,5 +23,6 @@ $ git push -u origin 'main' <br />
 
 ## Subindo as atualizações restantes
 $ git add . <br />
+$ git status <br />
 $ git commit -m "first commit" <br />
 $ git push <br />
