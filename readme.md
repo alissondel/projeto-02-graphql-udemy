@@ -6,6 +6,8 @@ $ npm i sucrase -D <br />
 $ npm i nodemon -D <br />
 $ npm i json-server --save <br />
 $ npm install node-fetch@2 --save <br />
+$ npm i dataloader --save <br />
+$ npm i dotenv
 
 <h2 align="center"> 🎲 Rodando os servidores no back-end 🎲 </h2>
 $ npm run dev <br />
