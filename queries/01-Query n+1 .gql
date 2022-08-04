@@ -1,0 +1,11 @@
+query GET_USER {
+  user(id: "903") {
+    id
+    posts {
+      id
+      user {
+        id
+      }
+    }
+  }
+}
